@@ -6,7 +6,11 @@ const Home = () => {
 
   useEffect(() => {
     const typed = new Typed(el.current!, {
-      strings: ["Full Stack Developer", "React Developer", "Problem Solver"],
+      strings: [
+        ".NET Developer",
+        "React Developer",
+        "Banking Application Developer",
+      ],
       typeSpeed: 60,
       backSpeed: 30,
       loop: true,
@@ -31,9 +35,9 @@ const Home = () => {
         </h3>
 
         <p>
-          Welcome to my portfolio website! I'm a passionate and aspiring
-          software engineer with a strong desire to create innovative solutions
-          and push the boundaries of technology.
+          Welcome to my portfolio! I build secure, responsive banking
+          applications using .NET, React, and PostgreSQL, from KYC and document
+          management workflows to API-driven admin portals.
         </p>
 
         <div className="btn-group">
@@ -58,14 +62,14 @@ const Home = () => {
           <a href="https://github.com/pradeep-y">
             <i className="fa-brands fa-github"></i>
           </a>
-          <a href="#">
-            <i className="fa fa-code"></i>
-          </a>
           <a href="https://www.linkedin.com/in/pradeep-yadav-b14a35229/">
             <i className="fa-brands fa-linkedin"></i>
           </a>
 
-          <div className="elfsight-app-16057538-fd9f-452c-8452-f55aaf6bf3a2" data-elfsight-app-lazy></div>
+          <div
+            className="elfsight-app-16057538-fd9f-452c-8452-f55aaf6bf3a2"
+            data-elfsight-app-lazy
+          ></div>
         </div>
       </div>
     </div>

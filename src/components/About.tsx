@@ -12,18 +12,20 @@ const About = () => {
           </h2>
 
           <p>
-            I am a <span>Full Stack Developer</span> with strong expertise in
-            frontend technologies like React, JavaScript, HTML, CSS, and Tailwind CSS.
+            I am a <span>.NET and React Developer</span> who builds secure,
+            responsive banking applications.
           </p>
 
           <p>
-            I have hands-on experience building scalable applications such as{" "}
-            <span>DKYC, DMS, and CKYC platforms</span>.
+            I have worked on <span>DKYC, CKYC, REKYC, and DMS platforms</span>,
+            creating 20+ reusable UI components and end-to-end workflows with{" "}
+            <span>React, TypeScript, and Tailwind CSS</span>.
           </p>
 
           <p>
-            I work with databases like <span>MySQL</span> and backend technologies
-            including <span>.NET Core</span> and <span>Python</span>.
+            On the backend, I work with <span>ASP.NET Core</span> (Clean
+            Architecture) and <span>PostgreSQL</span>, and I am currently
+            expanding into <span>Node.js, Express, and MongoDB</span>.
           </p>
 
           <p>
@@ -36,9 +38,9 @@ const About = () => {
         <div className="about-right">
           <Tilt glareEnable glareMaxOpacity={0.4} scale={1.05}>
             <div className="about-card">
-              <div className="about-badge">🚀 Passionate Developer</div>
-              <div className="about-badge">💡 Problem Solver</div>
-              <div className="about-badge">⚡ Fast Learner</div>
+              <div className="about-badge">🏦 Banking Domain Experience</div>
+              <div className="about-badge">⚙️ .NET + React</div>
+              <div className="about-badge">🧩 20+ Reusable Components</div>
             </div>
           </Tilt>
         </div>
